@@ -1,0 +1,25 @@
+{
+  "$schema": "https://open-education-standards.github.io/oes/schemas/opk/v0.2.0/package.schema.json",
+  "opk_version": "0.2.0",
+  "name": "open-education-standards/getting-started",
+  "version": "1.0.0",
+  "title": "Getting started with OES",
+  "description": "A short course on what OES is and how to write your first question, with a self-check quiz.",
+  "license": "CC-BY-4.0",
+  "language": "en",
+  "tags": [
+    "oes",
+    "getting-started"
+  ],
+  "oes_version": "0.3.0",
+  "entry": {
+    "type": "course",
+    "path": "course.json"
+  },
+  "requires": {
+    "profiles": [
+      "Core",
+      "+Practice"
+    ]
+  }
+}
