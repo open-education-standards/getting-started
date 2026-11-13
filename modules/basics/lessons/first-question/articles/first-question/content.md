@@ -46,5 +46,5 @@ The `oes` command line tool validates documents and checks that every
 reference resolves:
 
 ```bash
-npx @inklyre/oes-lint lint ./my-course
+npx @open-education-standards/lint lint ./my-course
 ```
